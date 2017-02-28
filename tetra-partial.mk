@@ -37,6 +37,18 @@ PRODUCT_COPY_FILES += \
     $(SONY_VENDOR)/lib/libVCOS.so:system/lib/libVCOS.so
     
 PRODUCT_COPY_FILES += \
+    $(SONY_VENDOR)/lib/libdev-util.so:system/lib/libdev-util.so
+    
+PRODUCT_COPY_FILES += \
+    $(SONY_VENDOR)/lib/libtinyalsa_ext.so:system/lib/libtinyalsa_ext.so
+    
+PRODUCT_COPY_FILES += \
+    $(SONY_VENDOR)/lib/libuip.so:system/lib/libuip.so
+    
+PRODUCT_COPY_FILES += \
+    $(SONY_VENDOR)/lib/libsoc.so:system/lib/libsoc.so
+    
+PRODUCT_COPY_FILES += \
     $(SONY_VENDOR)/lib/hw/audio.primary.bcm_java.so:system/lib/hw/audio.primary.bcm_java.so    
     
 PRODUCT_COPY_FILES += \
@@ -68,9 +80,6 @@ PRODUCT_COPY_FILES += \
     
 PRODUCT_COPY_FILES += \
     $(SONY_VENDOR)/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin
-
-PRODUCT_COPY_FILES += \
-    $(SONY_VENDOR)/bin/tac:system/bin/tac
     
 PRODUCT_COPY_FILES += \
     $(SONY_VENDOR)/bin/taimport:system/bin/taimport
